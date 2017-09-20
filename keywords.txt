@@ -1,0 +1,40 @@
+#######################################
+# Syntax Coloring Map List
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+List	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+Capacity	KEYWORD2
+Count	KEYWORD2
+Contains	KEYWORD2
+IndexOf	KEYWORD2
+First	KEYWORD2
+Last	KEYWORD2
+Add	KEYWORD2
+AddRange	KEYWORD2
+Insert	KEYWORD2
+InsertRange	KEYWORD2
+RemoveFirst	KEYWORD2
+Remove	KEYWORD2
+RemoveLast	KEYWORD2
+RemoveRange	KEYWORD2
+Replace	KEYWORD2
+ReplaceRange	KEYWORD2
+Reverse	KEYWORD2
+Clear	KEYWORD2
+IsEmpty	KEYWORD2
+IsFull	KEYWORD2
+Trim	KEYWORD2
+ToArray	KEYWORD2
+CopyTo	KEYWORD2
+FromArray	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
