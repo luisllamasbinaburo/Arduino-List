@@ -155,3 +155,58 @@ void CopyTo(T* items, size_t index, size_t numItems);
 ## Ejemplos
 La librería List incluye los siguientes ejemplos para ilustrar su uso.
 * List: Ejemplo general de uso de la clase List.
+```c++
+#include "ListLib.h"
+
+void setup() {
+	Serial.begin(9600);
+	
+	// Crear una nueva lista
+	List<int> list;
+	
+	// Añadir elementos de 0 a 10
+	for (int i = 0; i <= 10; i++)
+	{
+		list.Add(i);
+	}
+
+	// Array para ejemplos con rangos
+	int test[] = {100, 200, 300, 400, 500 };
+
+	// Ejemplo añadir
+	list.Add(1000);
+	list.AddRange(test, 5);
+
+	// Ejemplo insertar
+	list.Insert(2, 2000);
+	list.InsertRange(5, test, 5);
+
+	// Ejemplo reemplazar
+	list.Replace(2, 5000);
+	list.ReplaceRange(3, test, 5);
+
+	// Ejemplo de eliminar
+	list.Remove(17);
+	list.RemoveRange(2, 8);
+	
+	// Mostrar resultado por pantalla
+	// y ejemplo acceso con indexador[]
+	for (int i = 0; i < list.Count(); i++)
+	{
+		Serial.println(list[i]);
+	}
+
+	// Ejemplo IndexOf
+	Serial.print("IndexOf: ");
+	Serial.println(list.IndexOf(23));
+
+	// Ejemplo Trim
+	list.Trim();
+	Serial.print("Capacity: ");
+	Serial.println(list.Capacity());
+}
+
+void loop() {
+  
+}
+```
