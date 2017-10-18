@@ -1,5 +1,5 @@
 # Librería Arduino List
-Librería para Arduino que un array de tamaño dinámico, es decir, una colección en la que es posible añadir o eliminar elementos, y la colección aumenta o disminuye su capacidad en función del número de elementos almacenados. 
+Librería para Arduino que implementa un array de tamaño dinámico, es decir, una colección en la que es posible añadir o eliminar elementos, y la colección aumenta o disminuye su capacidad en función del número de elementos almacenados. 
 
 Más información https://www.luisllamas.es/libreria-arduino-list/
 
