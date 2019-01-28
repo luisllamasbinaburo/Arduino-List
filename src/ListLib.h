@@ -76,7 +76,6 @@ private:
 	void reserve(size_t size);
 	void resize(size_t size);
 };
-#endif
 
 
 template <typename T>
@@ -361,3 +360,5 @@ void List<T>::resize(size_t size)
 	_capacity = size;
 	_items = newItems;
 }
+
+#endif
