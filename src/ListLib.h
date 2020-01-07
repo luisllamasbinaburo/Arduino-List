@@ -32,8 +32,8 @@ public:
 	bool Contains(T item);
 	size_t IndexOf(T item);
 
-	void First();
-	void Last();
+	T& First();
+	T& Last();
 
 	void Add(T item);
 	void AddRange(T* items, size_t numItems);
@@ -116,13 +116,13 @@ size_t List<T>::Count() const
 }
 
 template <typename T>
-void List<T>::First()
+T& List<T>::First()
 {
 	return _items[0];
 }
 
 template <typename T>
-void List<T>::Last()
+T& List<T>::Last()
 {
 	return _items[_count - 1];
 }
